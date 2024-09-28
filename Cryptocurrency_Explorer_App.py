@@ -300,6 +300,13 @@ def overview_section():
 
     st.image("my_image.jpg", width=300)  
 
+
+# Streamlit app config
+st.set_page_config(
+    page_title="Cryptocurrency Explorer",  # Custom page title for the browser tab
+    page_icon="💹"
+)
+
 # Streamlit app
 def navigation_buttons():
 
